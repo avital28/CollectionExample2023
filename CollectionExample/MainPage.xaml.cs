@@ -7,11 +7,6 @@ namespace CollectionExample;
 
 public partial class MainPage : ContentPage
 {
-
-    #region   מכיון שרשימה לא יכולה להודיע למסך על הוספה/מחיקה של ערך מהרשימה נשתמש באוסף שכן יודע
-
-    //public List<Student> Students {get;set;}
-            #endregion
     public ObservableCollection<Student> Students { get; set; }
 
     #region כדי שהמסך יתעדכן כתוצאה מעדכון הסטודנט עלינו להפעיל את אירוע בכל שינוי ערך שלו. לכן עלינו ליצור אובייקט מגבה
